@@ -1,0 +1,28 @@
+.khoi{
+	background: lightblue;
+	width: 100px;
+	height: 60px;
+}
+.chuyendong{
+	animation: ani 1s forwards;
+	}
+@-webkit-keyframes ani{
+	from{
+		transform: translateX(0px);
+		}
+	to{
+		transform: translateX(200px);
+		}
+	}
+
+.dixuong{
+	animation: ani2 1s forwards;
+}
+@-webkit-keyframes ani2{
+	from{
+		transform: translateX(200px) translateY(0px);
+		}
+	to{
+		transform: translateX(200px) translateY(300px);
+		}
+	}
